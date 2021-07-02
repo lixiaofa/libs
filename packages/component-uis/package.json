@@ -1,6 +1,6 @@
 {
 	"name": "component-uis",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": true,
 	"dependencies": {
 		"core-js": "^3.6.5",
