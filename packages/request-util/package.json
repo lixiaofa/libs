@@ -1,6 +1,6 @@
 {
   "name": "request-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a axios post-packaging",
   "keywords": [
     "axios"
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "ant-design-vue": "^1.7.5",
-    "auth-util": "^1.0.1",
+    "auth-util": "^1.0.2",
     "axios": "^0.21.1"
   },
   "gitHead": "55eef69f0d4d65550768a9ea7c335dd7039ca212"
