@@ -1,11 +1,21 @@
-# `auth-util`
+<!--
+ * @Descripttion: 
+ * @Date: 2021-06-23 10:29:38
+ * @LastEditors: Sima thief
+ * @LastEditTime: 2021-07-07 17:24:49
+ * @Author: Sima thief
+-->
+# `plugin-auth-util`
 
-> TODO: description
+> TODO: cookie的二次封装
 
 ## Usage
 
 ```
-const authUtil = require('auth-util');
+import { getToken , setToken , removeToken } from 'auth-util'
 
-// TODO: DEMONSTRATE API
+getToken()
+setToken(token)
+removeToken()
+//注意const Token = 'Token' token 字段已定死
 ```
