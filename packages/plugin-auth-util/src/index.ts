@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-06-23 10:29:38
  * @LastEditors: Sima thief
- * @LastEditTime: 2021-06-23 11:06:50
+ * @LastEditTime: 2021-07-07 16:06:21
  * @Author: Sima thief
  */
 'use strict';
@@ -24,10 +24,6 @@ export function setToken(token: string) {
 export function removeToken() {
     return Cookies.remove(Token)
 }
-// module.exports = {  };
 
-// function authUtil() {
-//     // TODO
-// }
 
 
