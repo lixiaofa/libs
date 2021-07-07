@@ -1,5 +1,5 @@
 {
-  "name": "request-util",
+  "name": "@request-util",
   "version": "1.0.5",
   "description": "a axios post-packaging",
   "keywords": [
@@ -32,5 +32,5 @@
     "auth-util": "^1.0.5",
     "axios": "^0.21.1"
   },
-  "gitHead": "cf1e4c5bbf715aba2f8ed83c70a72775362ab3c6"
+  "gitHead": "0e6df8f9461cf286301038d630f47f3de7a83eec"
 }
