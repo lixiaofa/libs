@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-06-23 11:08:52
  * @LastEditors: Sima thief
- * @LastEditTime: 2021-06-23 11:19:56
+ * @LastEditTime: 2021-07-07 18:37:14
  * @Author: Sima thief
  */
 'use strict';
@@ -13,7 +13,7 @@
 //     // TODO
 // }
 import axios, { AxiosRequestConfig } from 'axios'
-import { getToken } from 'auth-util'
+import { getToken } from 'plugin-auth-util'
 import { message } from "ant-design-vue";
 
 // create an axios instance
