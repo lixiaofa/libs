@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-06-28 18:08:36
  * @LastEditors: Sima thief
- * @LastEditTime: 2021-07-06 19:29:22
+ * @LastEditTime: 2021-07-07 10:53:38
  * @Author: Sima thief
  */
 
@@ -14,7 +14,7 @@ import ts from 'rollup-plugin-typescript2'
 import replace from '@rollup/plugin-replace'
 import json from '@rollup/plugin-json'
 
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+// import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 if (!process.env.TARGET) {
   throw new Error('TARGET package must be specified via --environment flag.')
@@ -88,6 +88,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default packageConfigs
+console.log('packageConfigs11111' , packageConfigs)
 
 function createConfig(format, output, plugins = []) {
  
@@ -288,6 +289,7 @@ function createProductionConfig(format) {
 
 function createMinifiedConfig(format) {
   const { terser } = require('rollup-plugin-terser')
+  const { nodeResolve } = require( '@rollup/plugin-node-resolve');
   return createConfig(
     format,
     {
