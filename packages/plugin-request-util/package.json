@@ -8,9 +8,9 @@
   "author": "sima_thief <sima@18jiuyu.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "directories": {
-    "src": "src",
+    "lib": "lib",
     "test": "__tests__"
   },
   "buildOptions": {
@@ -22,7 +22,7 @@
     ]
   },
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

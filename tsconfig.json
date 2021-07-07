@@ -26,7 +26,7 @@
     ]
   },
   "include": [
-    "packages/**/src/*",
+    "packages/**/lib/*",
   ],
   "exclude": [
     "**/__tests__",
