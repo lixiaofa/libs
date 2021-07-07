@@ -25,11 +25,11 @@ const { targets: allTargets, fuzzyMatchTarget } = require('./utils')
 
 
 const args = require('minimist')(process.argv.slice(2))
-console.log('args' , args)
+
 const targets = args._
 const formats = args.formats || args.f
 const devOnly = args.devOnly || args.d
-console.log('devOnly' , devOnly)
+
 const prodOnly = !devOnly && (args.prodOnly || args.p)
 const sourceMap = args.sourcemap || args.s
 const isRelease = args.release
@@ -88,24 +88,13 @@ async function build(target) {
   if (!formats) {
     await fs.remove(`${pkgDir}/dist`)
   }
-  console.log('pkg.buildOptions' , pkg.buildOptions)
-  console.log('pkg.buildOptions.env' , pkg.buildOptions.env)
+
  
   
   const env =
     (pkg.buildOptions && pkg.buildOptions.env) ||
     (devOnly ? 'development' : 'production')
 
-  console.log(devOnly ? 'development' : 'production')  
-
-   console.log('commit' , commit)
-  console.log('env' , env)
-  console.log('target' , target)
-  console.log('formats' , formats)
-  console.log('buildTypes' , buildTypes)
-  console.log('prodOnly' , prodOnly)
-  console.log('sourceMap' , sourceMap)
-  console.log('--------------') 
   await execa(
     'rollup',
     [
@@ -125,7 +114,7 @@ async function build(target) {
     ],
     { stdio: 'inherit' }
   )
-  console.log('2222222222222')
+ 
 
   if (buildTypes && pkg.types) {
     console.log()

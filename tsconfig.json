@@ -1,39 +1,36 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "dist",
-    "sourceMap": false,
-    "target": "es2016",
-    "useDefineForClassFields": false,
+    "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
-    "allowJs": false,
     "strict": true,
-    "noUnusedLocals": true,
-    "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "removeComments": false,
     "jsx": "preserve",
-    "lib": ["esnext", "dom"],
-    "types": ["node"],
-    "rootDir": ".",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+  
     "paths": {
-      "@": ["packages/*"],
-    }
+      "@/*": [
+        "lib/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
   },
   "include": [
-    "packages/global.d.ts",
-    "packages/*/src",
-    "packages/runtime-dom/types/jsx.d.ts",
-    "packages/*/__tests__",
-    "test-dts"
+    "packages/**/lib/*",
+  ],
+  "exclude": [
+    "**/__tests__",
+    "**/node_modules",
+   
   ]
 }
-
-// "jest"
-// "puppeteer", 
-
-// "@vue/compat": ["packages/vue-compat/src"],
-// "@vue/*": ["packages/*/src"],
-// "vue": ["packages/vue/src"]
