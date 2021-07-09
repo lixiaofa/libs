@@ -12,16 +12,21 @@ yarn build dom
 # specify the format to output
 yarn build core --formats cjs
 ```
-*/
+*/ 
 
 const fs = require('fs-extra')
+
 const path = require('path')
+
+
 const chalk = require('chalk')
 const execa = require('execa')
 const { gzipSync } = require('zlib')
 const { compress } = require('brotli')
 
+
 const { targets: allTargets, fuzzyMatchTarget } = require('./utils')
+// console.log('22222222222')
 
 
 const args = require('minimist')(process.argv.slice(2))

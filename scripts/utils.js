@@ -1,7 +1,15 @@
+/*
+ * @Descripttion: 
+ * @Date: 2021-07-06 14:51:00
+ * @LastEditors: Sima thief
+ * @LastEditTime: 2021-07-09 20:52:36
+ * @Author: Sima thief
+ */
 const fs = require('fs')
 const chalk = require('chalk')
 
 const targets = (exports.targets = fs.readdirSync('packages').filter(f => {
+  console.log('f1111' , f)
   if (!fs.statSync(`packages/${f}`).isDirectory()) {
     return false
   }

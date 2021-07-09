@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-07-01 16:49:44
  * @LastEditors: Sima thief
- * @LastEditTime: 2021-07-07 18:18:08
+ * @LastEditTime: 2021-07-09 18:36:00
  * @Author: Sima thief
 -->
 # libs
@@ -19,4 +19,7 @@ lerna + rollup ， independent  ， 多包管理
 
 ## 你只需
 
-+ 分辨组件类型 ，在packages目录下 ， 创建对应的文件夹（如：utils  , ui)
++ 分辨组件类型 ，在packages目录下 ， 创建对应的文件夹（如：utils  , ui)  , 执行lerna create plugin-a-util packages/utils/plugin-a-util创建自己的组件包
++ 打包cnpm run build
+
++ 登录npm 
