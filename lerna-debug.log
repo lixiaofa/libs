@@ -1,20 +1,11 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   name: 'plugin-a-util',
-0 silly argv   loc: 'packages/utils/plugin-a-util'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath D:\libs
-3 info versioning independent
-4 error Error: canceled
-4 error     at Interface.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_read@1.0.7@read\lib\read.js:66:13)
-4 error     at Interface.emit (events.js:376:20)
-4 error     at Interface._ttyWrite (readline.js:880:16)
-4 error     at ReadStream.onkeypress (readline.js:213:10)
-4 error     at ReadStream.emit (events.js:376:20)
-4 error     at emitKeys (internal/readline/utils.js:345:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (readline.js:1149:36)
-4 error     at ReadStream.emit (events.js:376:20)
+16 error Error: Command failed with exit code 1: git remote update
+16 error error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054
+16 error fatal: expected flush after ref listing
+16 error error: Could not fetch origin
+16 error Fetching origin
+16 error     at makeError (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.1@execa\lib\error.js:59:11)
+16 error     at Function.module.exports.sync (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.1@execa\index.js:188:17)
+16 error     at Object.execSync (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_child-process@4.0.0@@lerna\child-process\index.js:39:16)
+16 error     at updateRemote (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:34:16)
+16 error     at isBehindUpstream (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:16:3)
+16 error     at VersionCommand.initialize (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\index.js:153:9)
