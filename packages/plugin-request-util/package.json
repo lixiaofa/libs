@@ -1,12 +1,11 @@
 {
   "name": "plugin-request-util",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "a axios post-packaging",
   "keywords": [
     "axios"
   ],
   "author": "sima_thief <sima@18jiuyu.com>",
- 
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -30,7 +29,7 @@
   "dependencies": {
     "ant-design-vue": "^1.7.5",
     "axios": "^0.21.1",
-    "plugin-auth-util": "^1.0.9"
+    "plugin-auth-util": "^1.0.10"
   },
   "repository": {
     "type": "git",

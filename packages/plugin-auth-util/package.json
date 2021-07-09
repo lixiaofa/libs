@@ -1,12 +1,11 @@
 {
   "name": "plugin-auth-util",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "auth",
   "keywords": [
     "auth"
   ],
   "author": "sima_thief <sima@18jiuyu.com>",
-  
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
