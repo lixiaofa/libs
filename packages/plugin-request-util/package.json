@@ -6,7 +6,7 @@
     "axios"
   ],
   "author": "sima_thief <sima@18jiuyu.com>",
-  "homepage": "",
+ 
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -32,5 +32,13 @@
     "axios": "^0.21.1",
     "plugin-auth-util": "^1.0.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofa/libs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lixiaofa/libs/issues"
+  },
+  "homepage": "https://github.com/lixiaofa/libs#readme",
   "gitHead": "0e6df8f9461cf286301038d630f47f3de7a83eec"
 }
