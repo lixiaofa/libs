@@ -8,9 +8,9 @@
   "author": "sima_thief <sima@18jiuyu.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/request-util.js",
+  "main": "src/index.ts",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "buildOptions": {
@@ -19,10 +19,13 @@
     "formats": [
       "esm-bundler",
       "cjs"
+     
+    
     ]
   },
   "files": [
-    "lib"
+    "src",
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

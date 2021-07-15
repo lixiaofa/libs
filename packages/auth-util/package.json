@@ -8,9 +8,9 @@
   "author": "sima_thief <sima@18jiuyu.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/auth-util.js",
+  "main": "src/index.ts",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "buildOptions": {
@@ -22,7 +22,8 @@
     ]
   },
   "files": [
-    "lib"
+    "src",
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

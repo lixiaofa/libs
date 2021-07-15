@@ -1,8 +1,8 @@
 /*
  * @Descripttion: 
  * @Date: 2021-06-28 18:08:36
- * @LastEditors: Sima thief
- * @LastEditTime: 2021-07-07 10:53:38
+ * @LastEditors: 司马老贼
+ * @LastEditTime: 2021-07-15 16:00:22
  * @Author: Sima thief
  */
 
@@ -88,7 +88,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default packageConfigs
-console.log('packageConfigs11111' , packageConfigs)
+// console.log('packageConfigs11111' , packageConfigs)
 
 function createConfig(format, output, plugins = []) {
  
@@ -138,6 +138,7 @@ function createConfig(format, output, plugins = []) {
   hasTSChecked = true
 
   let entryFile = /runtime$/.test(format) ? `src/runtime.ts` : `src/index.ts`
+  console.log('entryFile1111' , entryFile)
 
   // the compat build needs both default AND named exports. This will cause
   // Rollup to complain for non-ESM targets, so we use separate entries for
