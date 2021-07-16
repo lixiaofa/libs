@@ -1,20 +1,19 @@
 {
-  "name": "auth-util",
-  "version": "1.0.5",
+  "name": "plugin-auth-util",
+  "version": "1.0.10",
   "description": "auth",
   "keywords": [
     "auth"
   ],
   "author": "sima_thief <sima@18jiuyu.com>",
-  "homepage": "",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "directories": {
-    "src": "src",
+    "lib": "lib",
     "test": "__tests__"
   },
   "buildOptions": {
-    "name": "AuthUtil",
+    "name": "PluginAuthUtil",
     "compat": true,
     "formats": [
       "esm-bundler",
@@ -22,8 +21,7 @@
     ]
   },
   "files": [
-    "src",
-    "dist"
+    "lib"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -32,5 +30,13 @@
     "@types/js-cookie": "^2.2.6",
     "core-js": "^3.15.1"
   },
-  "gitHead": "cf1e4c5bbf715aba2f8ed83c70a72775362ab3c6"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofa/libs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lixiaofa/libs/issues"
+  },
+  "homepage": "https://github.com/lixiaofa/libs#readme",
+  "gitHead": "0e6df8f9461cf286301038d630f47f3de7a83eec"
 }

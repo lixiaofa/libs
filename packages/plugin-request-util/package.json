@@ -1,0 +1,50 @@
+{
+  "name": "plugin-request-util",
+  "version": "1.0.11",
+  "description": "a axios post-packaging",
+  "keywords": [
+    "axios"
+  ],
+  "author": "sima_thief <sima@18jiuyu.com>",
+  "license": "ISC",
+<<<<<<< HEAD:packages/request-util/package.json
+  "main": "src/index.ts",
+=======
+  "main": "lib/index.js",
+>>>>>>> 1830bb18d808e5007bbdb3c162001392a084075d:packages/plugin-request-util/package.json
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "buildOptions": {
+    "name": "PluginRequestUtil",
+    "compat": true,
+    "formats": [
+      "esm-bundler",
+      "cjs"
+     
+    
+    ]
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.5",
+    "axios": "^0.21.1",
+    "plugin-auth-util": "^1.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofa/libs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lixiaofa/libs/issues"
+  },
+  "homepage": "https://github.com/lixiaofa/libs#readme",
+  "gitHead": "0e6df8f9461cf286301038d630f47f3de7a83eec"
+}
