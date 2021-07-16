@@ -3,7 +3,7 @@
  * @Date: 2021-06-28 18:08:36
 <<<<<<< HEAD
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-15 16:00:22
+ * @LastEditTime: 2021-07-16 17:37:37
 =======
  * @LastEditors: Sima thief
  * @LastEditTime: 2021-07-09 19:11:48
@@ -123,7 +123,8 @@ function createConfig(format, output, plugins = []) {
 
   const shouldEmitDeclarations =
     pkg.types && process.env.TYPES != null && !hasTSChecked
-
+  
+  
   const tsPlugin = ts({
     check: process.env.NODE_ENV === 'production' && !hasTSChecked,
     tsconfig: path.resolve(__dirname, 'tsconfig.json'),
@@ -134,7 +135,7 @@ function createConfig(format, output, plugins = []) {
         declaration: shouldEmitDeclarations,
         declarationMap: shouldEmitDeclarations
       },
-      exclude: ['**/__tests__', 'test-dts']
+      exclude: ['**/__tests__']
     }
   })
   // we only need to check TS and generate declarations once for each build.
@@ -142,21 +143,16 @@ function createConfig(format, output, plugins = []) {
   // during a single build.
   hasTSChecked = true
 
-<<<<<<< HEAD
-  let entryFile = /runtime$/.test(format) ? `src/runtime.ts` : `src/index.ts`
-  console.log('entryFile1111' , entryFile)
-=======
   
-  let entryFile = /runtime$/.test(format) ? `lib/runtime.ts` : `lib/index.ts`
->>>>>>> 1830bb18d808e5007bbdb3c162001392a084075d
+  let entryFile = /runtime$/.test(format) ? `src/runtime.ts` : `src/index.ts`
 
   // the compat build needs both default AND named exports. This will cause
   // Rollup to complain for non-ESM targets, so we use separate entries for
   // esm vs. non-esm builds.
   if (isCompatPackage && (isBrowserESMBuild || isBundlerESMBuild)) {
     entryFile = /runtime$/.test(format)
-      ? `lib/esm-runtime.ts`
-      : `lib/esm-index.ts`
+      ? `src/esm-runtime.ts`
+      : `src/esm-index.ts`
   }
 
   let external = []

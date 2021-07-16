@@ -17,8 +17,9 @@
     "compat": true,
     "formats": [
       "esm-bundler",
-      "cjs"
-     
+      "esm-browser",
+      "cjs",
+      "global"
     
     ]
   },
