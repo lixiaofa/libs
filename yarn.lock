@@ -1398,11 +1398,6 @@ ant-design-vue@^1.7.5:
     vue-ref "^2.0.0"
     warning "^4.0.0"
 
-app-root-path@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/app-root-path/download/app-root-path-3.0.0.tgz#210b6f43873227e18a4b810a032283311555d5ad"
-  integrity sha1-IQtvQ4cyJ+GKS4EKAyKDMRVV1a0=
-
 aproba@^1.0.3:
   version "1.2.0"
   resolved "https://registry.nlark.com/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
@@ -1845,14 +1840,6 @@ commitizen@^4.0.3, commitizen@^4.2.4:
     minimist "1.2.5"
     strip-bom "4.0.0"
     strip-json-comments "3.0.1"
-
-commitlint-config-cz@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.npm.taobao.org/commitlint-config-cz/download/commitlint-config-cz-0.13.2.tgz#83f98a1217fb9e1e7cedd6d1d4fdb2d1492a867e"
-  integrity sha1-g/mKEhf7nh587dbR1P2y0Ukqhn4=
-  dependencies:
-    app-root-path "~3.0.0"
-    lodash.clonedeep "~4.5.0"
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -3612,7 +3599,7 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://registry.nlark.com/lodash._reinterpolate/download/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
-lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
+lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz?cache=0&sync_timestamp=1599054271708&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash.clonedeep%2Fdownload%2Flodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=

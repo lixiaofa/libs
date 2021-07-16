@@ -2,10 +2,10 @@
  * @Descripttion: 
  * @Date: 2021-06-23 10:29:38
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-16 15:10:24
+ * @LastEditTime: 2021-07-16 20:20:46
  * @Author: Sima thief
  */
-'use strict';
+
 
 
 import Cookies from 'js-cookie'
