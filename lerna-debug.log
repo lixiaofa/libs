@@ -1,11 +1,10 @@
 16 error Error: Command failed with exit code 1: git remote update
-16 error error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054
-16 error fatal: expected flush after ref listing
+16 error fatal: unable to access 'https://github.com/lixiaofa/libs.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
 16 error error: Could not fetch origin
 16 error Fetching origin
-16 error     at makeError (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.1@execa\lib\error.js:59:11)
-16 error     at Function.module.exports.sync (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.1@execa\index.js:188:17)
-16 error     at Object.execSync (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_child-process@4.0.0@@lerna\child-process\index.js:39:16)
-16 error     at updateRemote (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:34:16)
-16 error     at isBehindUpstream (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:16:3)
-16 error     at VersionCommand.initialize (C:\Users\admin\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\index.js:153:9)
+16 error     at makeError (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.0@execa\lib\error.js:59:11)
+16 error     at Function.module.exports.sync (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_execa@5.0.0@execa\index.js:186:17)
+16 error     at Object.execSync (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_child-process@4.0.0@@lerna\child-process\index.js:39:16)
+16 error     at updateRemote (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:34:16)
+16 error     at isBehindUpstream (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:16:3)
+16 error     at VersionCommand.initialize (C:\Users\jion\AppData\Roaming\npm\node_modules\lerna\node_modules\_@lerna_version@4.0.0@@lerna\version\index.js:153:9)
