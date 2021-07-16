@@ -7,11 +7,7 @@
   ],
   "author": "sima_thief <sima@18jiuyu.com>",
   "license": "ISC",
-<<<<<<< HEAD:packages/request-util/package.json
   "main": "src/index.ts",
-=======
-  "main": "lib/index.js",
->>>>>>> 1830bb18d808e5007bbdb3c162001392a084075d:packages/plugin-request-util/package.json
   "directories": {
     "src": "src",
     "test": "__tests__"
