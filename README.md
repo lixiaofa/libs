@@ -1,8 +1,8 @@
 <!--
  * @Descripttion: 
  * @Date: 2021-07-01 16:49:44
- * @LastEditors: Sima thief
- * @LastEditTime: 2021-07-09 21:39:49
+ * @LastEditors: 司马老贼
+ * @LastEditTime: 2021-07-16 20:13:17
  * @Author: Sima thief
 -->
 # libs
@@ -20,9 +20,9 @@ lerna + rollup ， independent  ， 多包管理
 ## 你只需
 
 + 在packages目录下 ，  执行lerna create plugin-a-util packages/plugin-a-util创建自己的组件包
-+ 打包cnpm run build
++ 打包yarn run build
 
-+ 登录npm 作者的npm 账号
++ 登录作者的npm 账号
 npm:
 sima_thief
 Lxf3642224
