@@ -30,7 +30,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "ant-design-vue": "^1.7.5",
+    "ant-design-vue": "^2.2.2",
     "axios": "^0.21.1",
     "plugin-auth-util": "^1.0.13"
   },

@@ -26,7 +26,9 @@ const { compress } = require('brotli')
 
 
 const { targets: allTargets, fuzzyMatchTarget } = require('./utils')
-// console.log('22222222222')
+console.log('22222222222')
+
+
 
 
 const args = require('minimist')(process.argv.slice(2))
