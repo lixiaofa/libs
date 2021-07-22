@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-06-23 11:08:52
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-22 18:47:52
+ * @LastEditTime: 2021-07-22 20:12:37
  * @Author: Sima thief
  */
 
@@ -16,7 +16,7 @@ import { message } from "ant-design-vue";
 const service = axios.create({
     baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
     // withCredentials: true, // send cookies when cross-domain requests
-    timeout: 5*1000 // request timeout
+    timeout: 5000 // request timeout
 })
 
 // request interceptor

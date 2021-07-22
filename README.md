@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-07-01 16:49:44
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-22 19:45:21
+ * @LastEditTime: 2021-07-22 20:02:35
  * @Author: Sima thief
 -->
 # libs
@@ -42,6 +42,12 @@ Lxf3642224
 # 如果你增加了新的组件，请完善约定式提交规范
 
 + 在.cz-config.js中添加你的组件 ， 如： scopes: [{ name: 'component-vue3.x-test' }, { name: 'plugin-auth-util' }, { name: 'plugin-request-util' } ， {name: 'packages/plugin-a-util'}],
+
+
+## 最后欢迎大家fork ， 让我们一起避免前端实际开发中重复造轮子 , 提高工作效率
+## 组件交流群
+
+
 
 
 
