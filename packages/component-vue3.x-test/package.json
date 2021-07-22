@@ -1,6 +1,6 @@
 {
   "name": "component-vue3.x-test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "plugin-auth-util": "^1.0.14",
-    "plugin-request-util": "^1.0.15",
+    "plugin-auth-util": "^1.0.21",
+    "plugin-request-util": "^1.0.22",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
