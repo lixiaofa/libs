@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 司马老贼
  * @Date: 2021-07-14 15:36:33
- * @LastEditTime: 2021-07-14 15:37:00
+ * @LastEditTime: 2021-07-22 19:42:07
  * @LastEditors: 司马老贼
  */
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
       { value: 'WIP', name: 'WIP:      Work in progress' },
     ],
   
-    scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
+    scopes: [{ name: 'component-vue3.x-test' }, { name: 'plugin-auth-util' }, { name: 'plugin-request-util' }],
   
     allowTicketNumber: false,
     isTicketNumberRequired: false,
