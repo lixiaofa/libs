@@ -2,16 +2,12 @@
  * @Descripttion: 
  * @Date: 2021-06-23 11:08:52
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-16 20:21:03
+ * @LastEditTime: 2021-07-22 15:52:55
  * @Author: Sima thief
  */
 
 
-// module.exports = requestUtil;
 
-// function requestUtil() {
-//     // TODO
-// }
 import axios, { AxiosRequestConfig } from 'axios'
 import { getToken } from 'plugin-auth-util'
 import { message } from "ant-design-vue";
@@ -20,7 +16,7 @@ import { message } from "ant-design-vue";
 const service = axios.create({
     baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
     // withCredentials: true, // send cookies when cross-domain requests
-    timeout: 5000 // request timeout
+    timeout: 5*1000 // request timeout
 })
 
 // request interceptor
