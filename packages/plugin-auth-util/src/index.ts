@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Date: 2021-06-23 10:29:38
  * @LastEditors: 司马老贼
- * @LastEditTime: 2021-07-22 17:10:34
+ * @LastEditTime: 2021-07-22 17:28:13
  * @Author: Sima thief
  */
 
@@ -10,17 +10,17 @@
 
 
 import Cookies from 'js-cookie'
-const TOKEN = 'TOKEN'
+const Token = 'Token'
 
 
 export function getToken() {
-    return Cookies.get(TOKEN)
+    return Cookies.get(Token)
 }
 export function setToken(token: string) {
-    return Cookies.set(TOKEN, token)
+    return Cookies.set(Token, token)
 }
 export function removeToken() {
-    return Cookies.remove(TOKEN)
+    return Cookies.remove(Token)
 }
 
 
